@@ -12,8 +12,21 @@
 
 @import "_misc/mixins";
 
+/* --------- misc icons sprite --------- */
+
+$misc-sprite: sprite-map('icons/_misc/*.png', $spacing: 70px);
+
+/* --------- common colors --------- */
+
+$black: #333;
+$orange: #ff6600;
+
 /* --------- adjustment --------- */
 
 @import "_misc/adjustment";
+
+/* --------- section --------- */
+
+@import "_sections/_header";
 
 
