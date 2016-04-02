@@ -1,35 +1,17 @@
-.breadcrumbs__item {
-	@include inlineblock(middle);
-	font-style: 14px;
-
-	&:before {
-		content: '>';
-		@include inlineblock(middle);
-	}
-
-	&:first-child {
-		&:before {
-			display: none;
-		}
-	}
-
-	&.active {
-		.breadcrumbs__link {
-			color: $orange;
-			text-decoration: underline;
-		}
-	}
-}
-
-.breadcrumbs__list {
-	margin-bottom: 21px;
-}
-
-.breadcrumbs__link {
+.main-title {
+	font-size: 20px;
+	line-height: 22px;
 	color: $black;
-	font-style: 14px;
-	line-height: 16px;
-	@include inlineblock(middle);
-	text-decoration: none;
+	@include open-sans(bold);
+	margin-bottom: 30px;
 }
 
+.main-content {
+	@include clearfix;
+	margin-bottom: 36px;
+}
+
+.content {
+	float: right;
+	width: 743px;
+}

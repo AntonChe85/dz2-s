@@ -4,6 +4,7 @@
       - var items = ["Флагманы", "Бюджетная линейка"]
       each item in items
         li(class="categories__item" + ((item == "Бюджетная линейка") ? ' ' + 'active' : ''))
+          a(href="#").categories__link= item
   .filter
     ul.filter__list
       li.filter__item
@@ -50,7 +51,7 @@
           a(href="#").filter__title-link Цвет
         .filter__content
           ul.filter__colors
-            - var colors = ["fff", "ccc", "000", "0a3153", "ff1800", "fff343", "fb914a", "92c37c", "ff1800", "ff1800", "ff1800", "ff1800"]
+            - var colors = ["fff", "ccc", "000", "0a3153", "ff1800", "fff343", "fb914a", "92c37c", "40a6ff", "9870ad", "dc78ad", "7f401d"]
             each color in colors
               li.filter__colors-item
                 label.filter__colors-item

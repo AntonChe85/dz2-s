@@ -6,7 +6,7 @@
 
 .nav__list {
 	text-align: justify;
-	font-style: 0;
+	font-size: 0;
 
 	&:after {
 		content: '';
@@ -29,7 +29,7 @@
 }
 
 .nav__link {
-	font-style: 16px;
+	font-size: 16px;
 	line-height: 18px;
 	padding: 17px 23px;
 	@include inlineblock();
